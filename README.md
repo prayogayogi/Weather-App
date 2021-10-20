@@ -10,14 +10,19 @@ npm install
 npm run serve
 ```
 
-### Compiles and minifies for production
+### The fire I use is
 ```
-npm run build
+openweathermap.org
 ```
 
-### Lints and fixes files
+### I also use axios to retrieve data
 ```
-npm run lint
+npm install axios
+```
+
+### I also use boostrap
+```
+npm install bootstrap
 ```
 
 ### Customize configuration
