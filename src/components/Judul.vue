@@ -3,9 +3,9 @@
     <div class="container">
     <h1>Weather App</h1>
       <div class="row justify-content-center">
-        <div class="col-10 mt-2">
+        <div class="col-11 mt-2">
           <div class="search">
-            <input type="text" name="Search" v-model="cari" autofocus class="form-control" @keypress="dataSuhu" placeholder="Cari....">
+            <input type="text" name="Search" v-model="cari" autofocus class="form-control" @keyup.enter="dataSuhu" placeholder="Masukan Nama Negara.!">
           </div>
         </div>
       </div>
@@ -48,6 +48,7 @@ export default {
         })
       }
       this.dat = new Date().toLocaleString()
+      this.cari = ''
     }
   }
 }
@@ -55,8 +56,9 @@ export default {
 
 <style scoped>
 .container{
-  border: 1px solid #334756;
+  border: 5px solid #334756;
   width: 20%;
   padding: 20px;
+  border-radius: 35px;
 }
 </style>
