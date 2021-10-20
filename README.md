@@ -5,11 +5,6 @@
 npm install
 ```
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
 ### The fire I use is
 ```
 openweathermap.org
@@ -23,6 +18,11 @@ npm install axios
 ### I also use boostrap
 ```
 npm install bootstrap
+```
+
+### Compiles and hot-reloads for development
+```
+npm run serve
 ```
 
 ### Customize configuration
