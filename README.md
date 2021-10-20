@@ -1,4 +1,4 @@
-# weather
+# How to run Weather App
 
 ## Project setup
 ```
